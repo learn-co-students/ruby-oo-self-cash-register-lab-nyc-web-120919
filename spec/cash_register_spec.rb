@@ -1,5 +1,6 @@
 describe 'CashRegister' do
   let(:cash_register) { CashRegister.new }
+  #when creating new it does not require you to take a parameter
   let(:cash_register_with_discount) { CashRegister.new(20) }
 
   describe '::new' do
